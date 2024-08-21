@@ -1,4 +1,5 @@
 <?php
+namespace main\packages\sample\goodbye;
 use main\src\CMasterLibrary;
 function main(array $args) : array
 {
