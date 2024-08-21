@@ -11,6 +11,7 @@ function main(array $args) : array
     } else {
         $sBody .=  'File not found.' . "\n";
     }
+    $sBody .= $_SERVER['SCRIPT_NAME'];
   return [
         'body' => $sBody ,
     ];
