@@ -1,5 +1,6 @@
 <?php
-
+require __DIR__ . '/vendor/autoload.php';
+use \src\CMasterLibrary;
 function main(array $args) : array
 {
     $filePath = 'main/src/CMasterLibrary.php';
