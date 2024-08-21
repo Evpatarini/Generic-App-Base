@@ -4,7 +4,7 @@ error_reporting(E_ALL);
 include('/src/CMasterLibrary.php');
 function main(array $args) : array
 {
-  echo CMasterLibrary::goodbyeOutput();
+  //echo CMasterLibrary::goodbyeOutput();
   return [
         'body' => 'WAHHHHHHHHH',
     ];
