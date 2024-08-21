@@ -6,7 +6,7 @@ function main(array $args) : array
 {
   echo "We in here instead";
   return [
-        'body' => 'WOOOOOOOOOO',//CMasterLibrary::goodbyeOutput(),
+        'body' => CMasterLibrary::goodbyeOutput(),
     ];
 }
 ?>
