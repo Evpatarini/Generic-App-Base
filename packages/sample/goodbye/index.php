@@ -4,7 +4,7 @@ error_reporting(E_ALL);
 
 function main(array $args) : array
 {
-    $filePath = dirname(__FILE__).'/src/CMasterLibrary.php';
+    $filePath = 'main/src/CMasterLibrary.php';
     $sBody = 'Including file at: ' . $filePath . "\n";
 
     if (file_exists($filePath)) {
