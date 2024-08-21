@@ -4,9 +4,9 @@ error_reporting(E_ALL);
 include('/src/CMasterLibrary.php');
 function main(array $args) : array
 {
-  echo "We in here instead";
+  echo CMasterLibrary::goodbyeOutput();
   return [
-        'body' => CMasterLibrary::goodbyeOutput(),
+        'body' => 'WAHHHHHHHHH',
     ];
 }
 ?>
