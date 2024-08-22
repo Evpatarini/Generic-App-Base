@@ -3,7 +3,7 @@ require __DIR__ . '/vendor/autoload.php';
 use \src\CMasterLibrary;
 function main(array $args) : array
 {
-    $filePath = 'main/src/CMasterLibrary.php';
+    $filePath = 'Generic-App-Base/src/CMasterLibrary.php';
     $sBody = 'Including file at: ' . $filePath . "\n";
 
     if (file_exists($filePath)) {
