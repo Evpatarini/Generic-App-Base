@@ -1,1 +1,4 @@
-<h2>WAAAHHHHHHHHHH</h2>
+<?php
+ $sBody =
+'<h2>WAAAHHHHHHHHHH</h2>';
+?>
