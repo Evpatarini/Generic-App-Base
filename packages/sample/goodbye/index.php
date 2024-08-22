@@ -2,7 +2,7 @@
 
 function main(array $args) : array
 {
-    $filePath = '/src/CMasterLibrary.php';
+    $filePath = 'myFile.php';
     $sBody = 'Including file at: ' . $filePath . "\n";
 
     if (file_exists($filePath)) {
