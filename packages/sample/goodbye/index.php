@@ -2,7 +2,7 @@
 
 function main(array $args) : array
 {
-    $filePath = 'myFile.php';
+    $filePath = 'CHTML.php';
     $sBody = 'Including file at: ' . $filePath . "\n";
 
     if (file_exists($filePath)) {
