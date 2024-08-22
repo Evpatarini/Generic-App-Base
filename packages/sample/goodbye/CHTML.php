@@ -57,18 +57,9 @@ class CHTML
 
     private const DEFAULT_POST_ARRAY = 'FieldValues';
 
-    public function __construct(
-        array $aIncludeAttributes=array(), 
-        string $sPostArrayName=self::DEFAULT_POST_ARRAY, 
-        bool $bDetectChange=true)
+    public function __construct()
     {
-        $this->sPostArrayName = $sPostArrayName;
-        $this->oLog = new CLog('CHTML');
 
-        // Add onchange event handler to every input element to detect data changes
-        // NOTE: tried onload and addlistener but not successfull because Ajax creates this form
-        $aDetectChangeEvent = $bDetectChange ? array('onchange' => 'formDetectChange();') : array();
-        $this->aIncludeAttributes = array_merge($aIncludeAttributes, $aDetectChangeEvent);
     }
 
     // Post array name used to create element names
