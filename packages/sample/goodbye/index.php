@@ -2,8 +2,8 @@
 
 function main(array $args) : array
 {
-    $filePath = 'myFile.php';
-    $sBody = 'Including file at: ' . $filePath . "\n";
+    $filePath = __DIR__.'/../../../src/CMasterLibrary.php';
+    $sBody = 'Including file at: ' . $filePath . "\n".__DIR__;
 
     if (file_exists($filePath)) {
         require_once $filePath;
